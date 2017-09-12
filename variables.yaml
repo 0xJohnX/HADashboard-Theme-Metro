@@ -18,7 +18,15 @@ body_includes:
  - "        event.preventDefault();"
  - "    }, false);"
  - "  </script>"
-
+ - "<div id='stars'></div>"
+ - "<div id='stars2'></div>"
+ - "<div id='stars3'></div>"
+ - "<div id='moon'>"
+ - "  <div class='craterCon'>"
+ - "    <div class='craters'></div>"
+ - "  </div>"
+ - "  <div class='glow'></div>"
+ - "</div>"
 #
 # Styles
 #
@@ -75,7 +83,7 @@ text_style: "color: $white"
 
 #These are used for icons and indicators
 style_inactive: "color: $white"
-style_active: "color: $light_yellow; animation: rotate 2s 1"
+style_active: "color: $light_yellow; animation: rotate2 2s 1"
 style_active_warn: "color: $red"
 style_info: "color: $white"
 style_title: "color: $white"
